@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.mygympal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LegsAdv"></activity>
+        <activity android:name=".ShoulderBackAdv" />
+        <activity android:name=".AbsAdv" />
+        <activity android:name=".ArmsAdv" />
+        <activity android:name=".ChestAdv" />
+        <activity android:name=".LegsIntermediate" />
+        <activity android:name=".ArmsIntermediate" />
+        <activity android:name=".ShoulderBackIntermediate" />
+        <activity android:name=".AbsIntermediate" />
+        <activity android:name=".ChestIntermediate" />
+        <activity android:name=".ShoulderBackBasics" />
+        <activity android:name=".Legsbasic" />
+        <activity android:name=".ArmsBasic" />
+        <activity android:name=".Absbasic" />
+        <activity android:name=".ChestBasic" />
+        <activity android:name=".Advanced" />
+        <activity android:name=".Intermediate" />
+        <activity android:name=".Basic" />
+        <activity android:name=".BMI" />
+        <activity
+            android:name=".TypesofWorkout"
+            android:label="INTENSITY" />
+        <activity
+            android:name=".Intensity"
+            android:label="CONTENTS" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
